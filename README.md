@@ -1,9 +1,11 @@
-# StupidKioskLoader
+# SimpleKioskLoader
 A tool that loads a Kiosk (a WebApp) in a browser after tne Network connetion has been established
 
 ## Description
 If you have a headless Kiosk you might been running in to the following problem: The Kiosk device (e.g. a RaspberryPi) starts up an loads the Website/WebApp but the network connection hasn't been established. It's especialy a problem when unsing WiFi.
 This tool solves that.
+
+## How it Works
 
 ## Installation
 1. Download the files
@@ -12,9 +14,6 @@ This tool solves that.
 4. Point your Browser to the File (e.g. file:///home/pi/WaitForNetwork.html)
 
 Finished!
-
-## How it Works
-
 
 ## License
 I'm using the 
