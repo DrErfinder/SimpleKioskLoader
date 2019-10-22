@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Auf Netzwerk Warten</title>
+</head>
+
+<body>
+
+
+    <div class="container transition">
+        <div class="wait transition">
+            <h1>Netzwerkverbindung<br>wird hergestellt.</h1>
+            <h2>Bitte warten...</h2>
+        </div>
+        <div class="error transition d-none op-0">
+            <h1>Fehler:<br>Server nicht erreichbar!</h1>
+            <h2>Wir probieren es weiter...</h2>
+        </div>
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <img src="" id="TestIMG" class="d-none">
+    </div>
+
+    <script>
+        let URL = 'http://localhost/WebApps/SchwarzesBrett/',
+            URLimgTest = URL + 'test.ico',
+            LoadInterval = 1000,
+            ErrorTimeout = 10000;
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
