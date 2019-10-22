@@ -1,5 +1,5 @@
 # SimpleKioskLoader
-A tool that loads a Kiosk (a WebApp) in a browser after tne Network connetion has been established
+A tool that loads a Kiosk (a WebApp) in a browser after tne Network connetion has been established.
 
 ## Description
 If you have a headless Kiosk you might been running in to the following problem: The Kiosk device (e.g. a RaspberryPi) starts up an loads the Website/WebApp but the network connection hasn't been established. It's especialy a problem when unsing WiFi.
