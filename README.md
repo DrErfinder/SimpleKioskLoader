@@ -9,10 +9,10 @@ This tool solves that.
 
 ## Installation / Quick Start
 1. Download the files and extract the "dist"-Folder
-2. Place the file "SimpleKioskLoader.html" localy on the Kiosk-Computer (e.g. /home/pi)
-4. Configure your Browser that it opens that File (e.g. file:///home/pi/WaitForNetwork.html)
-5. Add your URL as a hash to the URL (e.g. file:///home/pi/WaitForNetwork.html#https://mykiosk.com/kiosk/)
-6. Place the File "test.ico" on your Kiosk-Webserver (e.g. https://mykiosk.com/kiosk/test.ico)
+2. Place the file "SimpleKioskLoader.html" localy on the Kiosk-Computer `(e.g. /home/pi)`
+4. Configure your Browser that it opens that File `(e.g. file:///home/pi/WaitForNetwork.html)`
+5. Add your URL as a hash to the URL `(e.g. file:///home/pi/WaitForNetwork.html#https://mykiosk.com/kiosk/)`
+6. Place the File "test.ico" on your Kiosk-Webserver `(e.g. https://mykiosk.com/kiosk/test.ico)`
 6. Finished!
 
 ## Andvaced Configuration
