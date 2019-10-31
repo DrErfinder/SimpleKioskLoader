@@ -13,7 +13,7 @@ This tool solves that.
 3. Adjust the URL value in the .html-File
 4. Point your Browser to the File (e.g. file:///home/pi/WaitForNetwork.html)
 
-Finished!
+Finished!lol
 
 ## License
 I'm using the 
