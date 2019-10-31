@@ -7,13 +7,47 @@ This tool solves that.
 
 ## How it Works
 
-## Installation
-1. Download the files
-2. Place them on the Kiosk-Computer (e.g. /home/pi)
-3. Adjust the URL value in the .html-File
-4. Point your Browser to the File (e.g. file:///home/pi/WaitForNetwork.html)
+## Installation / Quick Start
+1. Download the files and extract the "dist"-Folder
+2. Place the file "SimpleKioskLoader.html" localy on the Kiosk-Computer (e.g. /home/pi)
+4. Configure your Browser that it opens that File (e.g. file:///home/pi/WaitForNetwork.html)
+5. Add your URL as a hash to the URL (e.g. file:///home/pi/WaitForNetwork.html#https://mykiosk.com/kiosk/)
+6. Place the File "test.ico" on your Kiosk-Webserver (e.g. https://mykiosk.com/kiosk/test.ico)
+6. Finished!
 
-Finished!lol
+## Andvaced Configuration
+You can open the File "SimpleKioskLoader.html" with a texteditor. There you can configure the following Parameters:
+```javascript
+lang = "auto",
+```
+Language Settings:
+- "auto": Uses the Browser Prefrences
+- "en": for English
+- "de": for German
+
+```javascript
+URL = 'http://localhost/',
+```
+Set a URL to Open if avavible.
+Note that the URL given in the URL via # is always prioritised.
+
+```javascript
+imgTest = 'test.ico',
+```
+The immage to test if the Kiosk-Website is reachable.
+Note that the Final URL is compromised for the URL + imgTest.
+
+```javascript
+LoadInterval = 1000,
+```
+Specify how often the avavibilyty is testet in millisecounds.
+Default ist every second. Lowest possible value is 100ms
+
+```javascript
+ErrorTimeout = 10000;
+```
+Specify after whitch time the Error is shown.
+Even after the error ist shown the Website will continue trying to reach the Kiosk-Website.
 
 ## License
 I'm using the 
