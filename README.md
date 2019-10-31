@@ -51,6 +51,9 @@ ErrorTimeout = 10000;
 Specify after whitch time the Error is shown.
 Even after the error ist shown the Website will continue trying to reach the Kiosk-Website.
 
+## Translations
+Content Follows
+
 ## License
 I'm using the 
 [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
