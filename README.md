@@ -6,6 +6,8 @@ If you have a headless Kiosk you might been running in to the following problem:
 This tool solves that.
 
 ## How it Works
+When the "SimpleKioskLoader.html"-File ist opend it will try an load an immage from a spefied URL. If does so succesfully it will open that website. If it can't reach it it will try again after a secound.
+After 10 Secounds of trying it wil display a Message that the website cant be reached. It will however continue to try to reach and open the Website.
 
 ## Installation / Quick Start
 1. Download the files and extract the "dist"-Folder
